@@ -1,11 +1,11 @@
-# Autorizar ONU - Script Python para Autorização de ONU em ROUTER da ZTE
-Este é um script Python desenvolvido para automatizar a autorização de ONUs (Optical Network Units) em ROUTER da marca ZTE. Utilizando as bibliotecas Netmiko, datetime e time, o script simplifica o processo de configuração e autorização ao solicitar apenas algumas informações do usuário.
+# Autorizar ONT - Script Python para Autorização de ONT em ROUTER da ZTE
+Este é um script Python desenvolvido para automatizar a autorização de ONTs (Optical Network Units) em ROUTER da marca ZTE. Utilizando as bibliotecas Netmiko, datetime e time, o script simplifica o processo de configuração e autorização ao solicitar apenas algumas informações do usuário.
 
 Com ele configuramos o equipamento e as credenciais WI-FI do cliente.
 
 ## Funcionalidades
-- Autorização Automática: Autoriza ONUs em ROUTER da ZTE com base nas informações fornecidas.
-- Informações Requeridas: Apenas o serial completo da ONU, o nome do cliente, o slot, PON, posição e a VLAN desejada são necessários.
+- Autorização Automática: Autoriza ONTs em ROUTER da ZTE com base nas informações fornecidas.
+- Informações Requeridas: Apenas o serial completo da ONT, o nome do cliente, o slot, PON, posição e a VLAN desejada são necessários.
 ## Pré-requisitos
 Antes de executar o script, certifique-se de ter as seguintes bibliotecas instaladas:
 
@@ -17,12 +17,12 @@ Antes de executar o script, certifique-se de ter as seguintes bibliotecas instal
 
 Abra o arquivo do script e ajuste os parâmetros conforme necessário. Você precisará fornecer o seguinte:
 
-- Serial da ONU: O serial completo da ONU que você deseja autorizar.
+- Serial da ont: O serial completo da ONT que você deseja autorizar.
 - Nome do Cliente: Nome do cliente para identificação.
-- Slot: Slot onde a ONU será alocada.
-- PON: Porta PON onde a ONU será conectada.
-- Posição: Posição da ONU no slot.
-- VLAN: VLAN desejada para a ONU.
+- Slot: Slot onde a ONT será alocada.
+- PON: Porta PON onde a ONT será conectada.
+- Posição: Posição da ONT no slot.
+- VLAN: VLAN desejada para a ONT.
 - Login PPPOE do cliente.
 - Senha PPPOE do cliente.
 - Nome do SSID 2.4 do cliente.
